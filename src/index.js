@@ -75,7 +75,7 @@ export default class JSONTree extends React.Component {
     valueRenderer: identity,
     postprocessValue: identity,
     isCustomNode: () => false,
-    collectionLimit: 50,
+    collectionLimit: 10,
     isLightTheme: true
   };
 
